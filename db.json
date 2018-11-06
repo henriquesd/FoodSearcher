@@ -1,0 +1,374 @@
+{
+  "restaurants": [
+    {
+      "id": "bread-bakery",
+      "name": "Bread & Bakery",
+      "category": "Bakery",
+      "deliveryEstimate": "25m",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/breadbakery.png",
+      "about": "Bread & Brakery has 40 years of market. We make the best pastries and breads. Buy and check out.",
+      "hours": "It works from Monday to Friday, from 8am to 11pm"
+    },
+    {
+      "id": "burger-house",
+      "name": "Burger House",
+      "category": "Hamburgers",
+      "deliveryEstimate": "100m",
+      "rating": 3.5,
+      "imagePath": "assets/img/restaurants/burgerhouse.png",
+      "about": "40 years specializing in trash food.",
+      "hours": "It works every day, from 10am to 10pm"
+    },
+    {
+      "id": "coffee-corner",
+      "name": "Coffee Corner",
+      "category": "Coffee Shop",
+      "deliveryEstimate": "30-40m",
+      "rating": 4.8,
+      "imagePath": "assets/img/restaurants/coffeecorner.png",
+      "about": "Coffee Corner was voted the best coffee shop in town.",
+      "hours": "It works from Monday to Saturday, from 6am to 10pm"
+    },
+    {
+      "id": "green-food",
+      "name": "Green Food",
+      "category": "Saudável",
+      "deliveryEstimate": "75m",
+      "rating": 4.1,
+      "imagePath": "assets/img/restaurants/greenfood.png",
+      "about": "Healthy food is at Green Food. We buy cheap, we sell expensive. ;)",
+      "hours": "Only during lunch hours, from 11am to 3pm"
+    },
+    {
+      "id": "ice-cream",
+      "name": "Ice Cream",
+      "category": "Ice Creams",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/icy.png",
+      "about": "Ice Cream is an innovative ice cream shop.",
+      "hours": "It works every day, from 10am to 1am"
+    },
+    {
+      "id": "tasty-treats",
+      "name": "Tasty Treats",
+      "category": "Candies",
+      "deliveryEstimate": "20m",
+      "rating": 4.4,
+      "imagePath": "assets/img/restaurants/tasty.png",
+      "about": "The candy store with more tradition of the city",
+      "hours": "It runs from Monday to Saturday, from 8am to 11pm"
+    }
+  ],
+  "menu": [
+    {
+      "id": "cup-cake",
+      "imagePath": "assets/img/foods/cupcake.png",
+      "name": "Cup Cake",
+      "description": "Cup Cake Stuffed with Milk Jam",
+      "price": 8.7,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "donut",
+      "imagePath": "assets/img/foods/donut.png",
+      "name": "Donut",
+      "description": "Covered with whipped cream",
+      "price": 2.5,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "bread",
+      "imagePath": "assets/img/foods/bread.png",
+      "name": "Italian Handmade Bread",
+      "description": "Homemade bread with Italian cheeses",
+      "price": 15.9,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "burger",
+      "imagePath": "assets/img/foods/burger.png",
+      "name": "Classic Burger",
+      "description": "The classic. You can not go wrong.",
+      "price": 18.5,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "fries",
+      "imagePath": "assets/img/foods/fries.png",
+      "name": "French Fries",
+      "description": "Crispy french fries",
+      "price": 5.5,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "coke.png",
+      "imagePath": "assets/img/foods/coke.png",
+      "name": "Soda",
+      "description": "The coolest soda in town.",
+      "price": 4.5,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "capp",
+      "imagePath": "assets/img/foods/capp.png",
+      "name": "Cappuccino with Whipped Cream",
+      "description": "Traditional cappuccino with whipped cream",
+      "price": 9.9,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "espreso",
+      "imagePath": "assets/img/foods/espreso.png",
+      "name": "Super Espreso",
+      "description": "Double espresso coffee.",
+      "price": 12.5,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "starb",
+      "imagePath": "assets/img/foods/starb.png",
+      "name": "Starbucks Copycat",
+      "description": "The most request of the house. The True American Pure Water Cafe.",
+      "price": 15.6,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "zlasagna",
+      "imagePath": "assets/img/foods/zlasagna.png",
+      "name": "Lasagna de Zucchini",
+      "description": "Delicious lasagna that is saved because of cheese",
+      "price": 14.9,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "greensandwich",
+      "imagePath": "assets/img/foods/greensandwich.png",
+      "name": "Chicken Sandwich",
+      "description": "Grilled chicken and salad",
+      "price": 10.5,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "ceasar",
+      "imagePath": "assets/img/foods/ceasar.png",
+      "name": "Ceasar Salad",
+      "description": "Classic caesar salad.",
+      "price": 33.9,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "sunday",
+      "imagePath": "assets/img/foods/sunday.png",
+      "name": "Mega Sunday",
+      "description": "Sunday with several ice cream balls of your choice",
+      "price": 21.5,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "chocpop",
+      "imagePath": "assets/img/foods/chocpop.png",
+      "name": "Coconut filled Popsicle",
+      "description": "Coconut filled popsicle.",
+      "price": 8.5,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "icestd.png",
+      "imagePath": "assets/img/foods/icestd.png",
+      "name": "Simple Ice Cream",
+      "description": "Classic street ice cream where all the flavors are identical.",
+      "price": 1.5,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "cup",
+      "imagePath": "assets/img/foods/cup.png",
+      "name": "White Chocolate Cup Cake",
+      "description": "White chocolate cupcake",
+      "price": 5.5,
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "id": "straw",
+      "imagePath": "assets/img/foods/straw.png",
+      "name": "Strawberry cake",
+      "description": "Cake stuffed and covered with strawberries",
+      "price": 40.5,
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "id": "cake",
+      "imagePath": "assets/img/foods/cake.png",
+      "name": "Slice of cake",
+      "description": "Slice of strawberry cake",
+      "price": 5.9,
+      "restaurantId": "tasty-treats"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Everything very good, delivery on time",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Sara",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3,
+      "comments": "I DO NOT recommend. The filling is just a cream, has no shrimp and no meat",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Skyler",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "It was not very pleasant to our tastebuds, and me and my hubby the other day we were super ill. It may have been something else, but ...",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Skyler",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Never left in hand, food always delicious.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Dani",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4,
+      "comments": "Very good sandwich! I've ordered several times always good!",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Lisa",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Best burger I have ever tasted. It will be difficult to go back to mc and bk",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Suzan",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "My sandwich arrived cold and all disassembled =\\",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Great option! I recommend!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "It took a while and the coffee came frosty",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Margaret",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.8,
+      "comments": "Everything perfect. Delivery, packaging, food. Result? Best cost-benefit",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Peter",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Very fast delivery, but expensive.",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "John",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excellent as always!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Mark",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Great. I made the request with another address and when I saw the error I called informing. The biker cut the whole city and the food still arrived warm (and delicious). I am always ordering and recommending",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Hank",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Arrived very fast, even before the forecast",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Lisa",
+      "date": "2017-01-23T18:25:43",
+      "rating": 2,
+      "comments": "I did not like the flavors I ordered and found the price very high",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Luke",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Waiting 1:45 hr to receive the order is UNACCEPTABLE",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Maria",
+      "date": "2017-02-01T18:25:43",
+      "rating": 4.5,
+      "comments": "Came OK!",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Ana",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Fast and always a delight !! I asked 3x and it always came fast and everything right.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Larissa",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "The delivery rate could be cheaper.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Jarbas",
+      "date": "2016-12-15T18:25:43",
+      "rating": 4.7,
+      "comments": "Excellent and arrived very fast!",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Rafaela",
+      "date": "2017-01-12T18:25:43",
+      "rating": 5,
+      "comments": "Arrived fast and perfect!",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Julia",
+      "date": "2016-12-12T18:25:43",
+      "rating": 1.5,
+      "comments": "I always liked the requests that I made, but this time it sucked and disappointed a lot. It took 30min more to arrive than the maximum expected time.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Marilia",
+      "date": "2016-12-20T18:25:43",
+      "rating": 4.5,
+      "comments": "Delivery rate quite high and need to put in app if person wants additional portion of something (syrup, crunchy etc)",
+      "restaurantId": "tasty-treats"
+    }
+  ],
+  "orders": []
+}
