@@ -9,30 +9,36 @@
             <div class="row">
               <div class="col-xs-12">
                 <h2 class="page-header">
-                  <i class="fa fa-shopping-cart"></i> Finalize o seu pedido
+                  <i class="fa fa-shopping-cart"></i> Finish your Order
                 </h2>
               </div>
             </div>                
 
             <div class="row">
-              <div classs="col-xs-12">
-                <p class="lead">Your date:</p>
-              </div>
-              <div class="col-sm-6 col-xs-12">
-                <mt-input-container errorMessage="Required field and with 5 characters" label="Name">
-                    <input formControlName="name" class="form-control" placeholder="Name" autocomplete="off">
-                </mt-input-container>
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <mt-input-container errorMessage="Invalid e-mail" label="E-mail">
-                    <input type="text" class="form-control" formControlName="email" placeholder="E-mail" autocomplete="off">
-                </mt-input-container>
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <mt-input-container errorMessage="Invalid e-mail" label="E-mail">
-                    <input type="text" class="form-control" formControlName="emailConfirmation" placeholder="E-mail confirmation" autocomplete="off">
-                </mt-input-container>
-              </div>
+                <div class="col-xs-12 col-sm-9">
+                  <p class="lead">Your date:</p>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <span class="help-block pull-right has-error-block" *ngIf="orderForm.hasError('emailsNotMatch')"><i class="fa fa-remove"></i>Emails don't match</span>
+                </div>
+
+                <div class="col-sm-6 col-xs-12">
+                  <mt-input-container errorMessage="Required field and with 5 characters" label="Name">
+                      <input formControlName="name" class="form-control" placeholder="Name" autocomplete="off">
+                  </mt-input-container>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                  <mt-input-container errorMessage="Invalid email" label="Email">
+                      <input type="text" class="form-control" formControlName="email" placeholder="Email" autocomplete="off">
+                  </mt-input-container>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                  <mt-input-container errorMessage="Invalid email" label="Email">
+                      <input type="text" class="form-control" formControlName="emailConfirmation" placeholder="Email confirmation" autocomplete="off">
+                  </mt-input-container>
+                </div>
             </div>
 
             <div class="row">
